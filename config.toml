@@ -1,2 +1,7 @@
 baseURL = "http://example.org/"
-theme = "bare"
+theme = ["bare", "reveal-hugo"]
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
